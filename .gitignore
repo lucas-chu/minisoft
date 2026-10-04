@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+!.env.example
+state/.mutex
+state/.factory.lock
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm

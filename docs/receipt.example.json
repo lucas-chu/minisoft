@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "idea_id": 33,
+  "run_id": "REPLACE_WITH_ACTUAL_CLAIM_RUN_ID",
+  "scope": "REPLACE_WITH_CONCRETE_DELIVERED_WORKFLOW_AND_BOUNDARIES",
+  "tier": "sandbox",
+  "source_digest": "REPLACE_WITH_FACTORY_DIGEST_OF_CHANGED_FILES",
+  "tests": [
+    {
+      "command": "REPLACE_WITH_ACTUAL_SUCCESSFUL_COMMAND",
+      "passed": true,
+      "evidence": "apps/033-mini-hackathon/evidence/check-output.txt"
+    }
+  ],
+  "core_workflow": {
+    "exercised": true,
+    "evidence": "apps/033-mini-hackathon/evidence/runtime-walkthrough.md"
+  },
+  "persistence": {
+    "applicable": true,
+    "passed": true,
+    "evidence": "apps/033-mini-hackathon/evidence/persistence-check.md"
+  },
+  "export": {
+    "applicable": true,
+    "passed": true,
+    "evidence": "apps/033-mini-hackathon/evidence/export-check.md"
+  },
+  "independent_review": {
+    "reviewer": "REPLACE_WITH_REVIEWER_IDENTIFIER_DIFFERENT_FROM_COORDINATOR",
+    "passed": true,
+    "evidence": "apps/033-mini-hackathon/evidence/review.md"
+  },
+  "website": {
+    "required": true,
+    "status": "succeeded",
+    "url": "https://REPLACE_WITH_ACTUAL_VERIFIED_RELEASE_URL",
+    "evidence": "apps/033-mini-hackathon/evidence/deployment.md"
+  },
+  "limitations": ["REPLACE_WITH_ACTUAL_LIMITATIONS"],
+  "changed_files": [
+    "apps/033-mini-hackathon/README.md",
+    "apps/033-mini-hackathon/SPEC.md"
+  ]
+}

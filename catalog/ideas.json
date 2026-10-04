@@ -1,0 +1,807 @@
+{
+  "schema_version": 1,
+  "order": [
+    33,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100
+  ],
+  "ideas": [
+    {
+      "id": 1,
+      "name": "MiniInvoice",
+      "description": "Describe the work, enter your rates, and generate an itemized invoice with your branding, without a subscription or payment-processing lock-in.",
+      "less": false,
+      "folder": "apps/001-mini-invoice"
+    },
+    {
+      "id": 2,
+      "name": "MiniProposal",
+      "description": "Turn discovery notes and a price list into an editable client proposal, with reusable sections and explicit assumptions.",
+      "less": false,
+      "folder": "apps/002-mini-proposal"
+    },
+    {
+      "id": 3,
+      "name": "MiniBrandbook",
+      "description": "Upload a logo, colors, and fonts to generate a searchable brand-guidelines site and downloadable asset library.",
+      "less": false,
+      "folder": "apps/003-mini-brandbook"
+    },
+    {
+      "id": 4,
+      "name": "MiniOrgChart",
+      "description": "Turn an employee spreadsheet into an editable organizational chart, with reporting lines, vacancies, and hypothetical reorganizations.",
+      "less": false,
+      "folder": "apps/004-mini-org-chart"
+    },
+    {
+      "id": 5,
+      "name": "MiniFlowchart",
+      "description": "Describe a process and get an editable flowchart, decision tree, or swimlane diagram rather than another diagramming subscription.",
+      "less": false,
+      "folder": "apps/005-mini-flowchart"
+    },
+    {
+      "id": 6,
+      "name": "MiniPost",
+      "description": "A narrow Jasper-style writing workspace: turn your notes into blog and LinkedIn drafts, preserving your examples and flagging unsupported claims.",
+      "less": false,
+      "folder": "apps/006-mini-post"
+    },
+    {
+      "id": 7,
+      "name": "MiniSlideDeck",
+      "description": "Turn an outline into polished, editable browser slides using a small library of reliable layouts rather than unrestricted design generation.",
+      "less": false,
+      "folder": "apps/007-mini-slide-deck"
+    },
+    {
+      "id": 8,
+      "name": "MiniManual",
+      "description": "Upload ordered screenshots and annotations; receive a step-by-step operating manual with a searchable web version.",
+      "less": false,
+      "folder": "apps/008-mini-manual"
+    },
+    {
+      "id": 9,
+      "name": "MiniBoardPack",
+      "description": "Assemble uploaded reports into an indexed board packet, with an agenda, executive summary, and clearly marked missing information.",
+      "less": false,
+      "folder": "apps/009-mini-board-pack"
+    },
+    {
+      "id": 10,
+      "name": "MiniPricebook",
+      "description": "Convert a product spreadsheet into a searchable catalog with specifications, pricing tables, and printable customer quotes.",
+      "less": false,
+      "folder": "apps/010-mini-pricebook"
+    },
+    {
+      "id": 11,
+      "name": "MiniOfflineDay",
+      "description": "Turn your tasks and calendar into one printable daily plan; the product\u2019s final instruction is to close it.",
+      "less": true,
+      "folder": "apps/011-mini-offline-day"
+    },
+    {
+      "id": 12,
+      "name": "MiniBuyLater",
+      "description": "Save tempting purchases to a cooling-off queue that asks whether you still want them several days later, without affiliate links.",
+      "less": true,
+      "folder": "apps/012-mini-buy-later"
+    },
+    {
+      "id": 13,
+      "name": "MiniRetreat",
+      "description": "Generate phone-free weekend plans, packing lists, emergency contacts, and printable schedules for individuals or groups.",
+      "less": true,
+      "folder": "apps/013-mini-retreat"
+    },
+    {
+      "id": 14,
+      "name": "MiniDigitalExit",
+      "description": "Choose an app to leave; receive a tailored checklist for exporting memories, saving contacts, notifying friends, and closing the account.",
+      "less": true,
+      "folder": "apps/014-mini-digital-exit"
+    },
+    {
+      "id": 15,
+      "name": "MiniStopScroll",
+      "description": "A browser extension that turns one supported infinite feed into a finite reading session and hides recommendations afterward.",
+      "less": true,
+      "folder": "apps/015-mini-stop-scroll"
+    },
+    {
+      "id": 16,
+      "name": "MiniFocusGate",
+      "description": "Before opening selected distracting websites, require a stated purpose and time limit, with an intentional rather than instantaneous override.",
+      "less": true,
+      "folder": "apps/016-mini-focus-gate"
+    },
+    {
+      "id": 17,
+      "name": "MiniSubscriptionAudit",
+      "description": "Analyze a locally uploaded statement, flag likely recurring charges, and generate a cancellation checklist without connecting to your bank.",
+      "less": true,
+      "folder": "apps/017-mini-subscription-audit"
+    },
+    {
+      "id": 18,
+      "name": "MiniCSVClean",
+      "description": "Deduplicate rows, normalize dates, reconcile column names, and export a cleaned spreadsheet with a reversible transformation history.",
+      "less": false,
+      "folder": "apps/018-mini-csv-clean"
+    },
+    {
+      "id": 19,
+      "name": "MiniReport",
+      "description": "Upload a spreadsheet and receive a reusable dashboard with filters, charts, and explanations tied to the underlying numbers.",
+      "less": false,
+      "folder": "apps/019-mini-report"
+    },
+    {
+      "id": 20,
+      "name": "MiniForms",
+      "description": "Describe the information you need and generate a branded form, validation rules, response table, and CSV export.",
+      "less": false,
+      "folder": "apps/020-mini-forms"
+    },
+    {
+      "id": 21,
+      "name": "MiniWiki",
+      "description": "A company knowledge base that imports existing documents, identifies duplicates, and assigns an owner and review date to each page.",
+      "less": false,
+      "folder": "apps/021-mini-wiki"
+    },
+    {
+      "id": 22,
+      "name": "MiniKanban",
+      "description": "A project tracker generated around your actual workflow, with tasks, dependencies, ownership, and no compulsory project-management methodology.",
+      "less": false,
+      "folder": "apps/022-mini-kanban"
+    },
+    {
+      "id": 23,
+      "name": "MiniCRM",
+      "description": "A deliberately small Salesforce alternative: contacts, companies, opportunities, notes, and a configurable sales pipeline, starting with CSV imports rather than integrations.",
+      "less": false,
+      "folder": "apps/023-mini-crm"
+    },
+    {
+      "id": 24,
+      "name": "MiniDonors",
+      "description": "A nonprofit donor database with contribution history, relationship notes, campaign tags, and acknowledgment drafts, without processing donations itself.",
+      "less": false,
+      "folder": "apps/024-mini-donors"
+    },
+    {
+      "id": 25,
+      "name": "MiniGrantReview",
+      "description": "Generate an application portal, reviewer assignments, scoring rubric, conflict disclosures, and decision records from a grant program\u2019s requirements.",
+      "less": false,
+      "folder": "apps/025-mini-grant-review"
+    },
+    {
+      "id": 26,
+      "name": "MiniMentorMesh",
+      "description": "Match mentors and participants using stated goals, availability, and constraints, then track introductions and whether meetings actually happened.",
+      "less": false,
+      "folder": "apps/026-mini-mentor-mesh"
+    },
+    {
+      "id": 27,
+      "name": "MiniVolunteerRoster",
+      "description": "Coordinate volunteer shifts, skills, attendance, and handoffs; measure completed service rather than activity inside the app.",
+      "less": true,
+      "folder": "apps/027-mini-volunteer-roster"
+    },
+    {
+      "id": 28,
+      "name": "MiniLibrary",
+      "description": "Catalog books or community learning materials, issue borrower IDs, and track loans and returns with printable labels.",
+      "less": false,
+      "folder": "apps/028-mini-library"
+    },
+    {
+      "id": 29,
+      "name": "MiniRoomBooking",
+      "description": "A shared reservation system for meeting rooms, studios, and equipment, with capacity limits and conflict prevention.",
+      "less": false,
+      "folder": "apps/029-mini-room-booking"
+    },
+    {
+      "id": 30,
+      "name": "MiniCommons",
+      "description": "Coordinate shared-house chores, supplies, and expenses through a weekly digest or printable noticeboard instead of constant group-chat messages.",
+      "less": true,
+      "folder": "apps/030-mini-commons"
+    },
+    {
+      "id": 31,
+      "name": "MiniLocalClub",
+      "description": "Membership, RSVPs, and recurring meetups for a neighborhood club, explicitly without a feed, follower counts, or engagement streaks.",
+      "less": true,
+      "folder": "apps/031-mini-local-club"
+    },
+    {
+      "id": 32,
+      "name": "MiniMuseumSchool",
+      "description": "Turn a museum or library\u2019s approved materials into workshops, self-guided learning trails, and in-person class registrations.",
+      "less": true,
+      "folder": "apps/032-mini-museum-school"
+    },
+    {
+      "id": 33,
+      "name": "MiniHackathon",
+      "description": "Applications, team formation, project submissions, judge assignments, and transparent scoring, configured from one event brief.",
+      "less": false,
+      "folder": "apps/033-mini-hackathon"
+    },
+    {
+      "id": 34,
+      "name": "MiniCourseHub",
+      "description": "Create a small course portal from a syllabus, with lessons, assignments, quizzes, and progress exports rather than a full university system.",
+      "less": false,
+      "folder": "apps/034-mini-course-hub"
+    },
+    {
+      "id": 35,
+      "name": "MiniHR",
+      "description": "An employee directory, onboarding checklist, leave-request system, and document register, deliberately excluding payroll and automatic legal determinations.",
+      "less": false,
+      "folder": "apps/035-mini-hr"
+    },
+    {
+      "id": 36,
+      "name": "MiniApplicantTracker",
+      "description": "Track applications, interview stages, structured scorecards, and candidate communications, keeping hiring decisions with people.",
+      "less": false,
+      "folder": "apps/036-mini-applicant-tracker"
+    },
+    {
+      "id": 37,
+      "name": "MiniAssetRegister",
+      "description": "Track laptops, tools, and other equipment through purchase, assignment, repair, and return using QR codes.",
+      "less": false,
+      "folder": "apps/037-mini-asset-register"
+    },
+    {
+      "id": 38,
+      "name": "MiniRightsCatalog",
+      "description": "Organize creative assets by owner, permitted uses, territory, and expiration date, with every extracted field linked to its contract.",
+      "less": false,
+      "folder": "apps/038-mini-rights-catalog"
+    },
+    {
+      "id": 39,
+      "name": "MiniDealSheet",
+      "description": "A founder-investor relationship database built from submitted decks and notes, with dated funding claims and evidence rather than invented valuations.",
+      "less": false,
+      "folder": "apps/039-mini-deal-sheet"
+    },
+    {
+      "id": 40,
+      "name": "MiniSponsorDesk",
+      "description": "Track sponsor prospects, packages, commitments, deliverables, and fulfillment across hackathons, conferences, or founder programs.",
+      "less": false,
+      "folder": "apps/040-mini-sponsor-desk"
+    },
+    {
+      "id": 41,
+      "name": "MiniEvents",
+      "description": "Registration, capacity management, agendas, QR check-in, and attendee communications for one event, with an exportable attendee database.",
+      "less": false,
+      "folder": "apps/041-mini-events"
+    },
+    {
+      "id": 42,
+      "name": "MiniResidency",
+      "description": "Coordinate cohort applications, rooms, mentors, events, office hours, and participant requests for a founder residency.",
+      "less": false,
+      "folder": "apps/042-mini-residency"
+    },
+    {
+      "id": 43,
+      "name": "MiniVenue",
+      "description": "Manage booking inquiries, tentative holds, quotes, staffing requirements, and event-day checklists for a small venue.",
+      "less": false,
+      "folder": "apps/043-mini-venue"
+    },
+    {
+      "id": 44,
+      "name": "MiniClientPortal",
+      "description": "Give each client a private space for files, requests, approvals, and project status, with explicit access controls.",
+      "less": false,
+      "folder": "apps/044-mini-client-portal"
+    },
+    {
+      "id": 45,
+      "name": "MiniDataRoom",
+      "description": "An investor document room with invitations, document-level permissions, access logs, expiration dates, and version history.",
+      "less": false,
+      "folder": "apps/045-mini-data-room"
+    },
+    {
+      "id": 46,
+      "name": "MiniBoardPortal",
+      "description": "Manage confidential agendas, decision records, minutes, and follow-up actions across recurring board meetings.",
+      "less": false,
+      "folder": "apps/046-mini-board-portal"
+    },
+    {
+      "id": 47,
+      "name": "MiniHelpDesk",
+      "description": "Turn a shared support inbox into assigned tickets, suggested replies, escalation rules, and a customer-facing knowledge base.",
+      "less": false,
+      "folder": "apps/047-mini-help-desk"
+    },
+    {
+      "id": 48,
+      "name": "MiniServiceDesk",
+      "description": "Replace a narrow ServiceNow workflow with employee request forms, approval routing, equipment records, and vetted resolution instructions.",
+      "less": false,
+      "folder": "apps/048-mini-service-desk"
+    },
+    {
+      "id": 49,
+      "name": "MiniInboxReset",
+      "description": "Identify recurring low-value email, propose filters and unsubscribes, and shift remaining messages into intentional reading windows.",
+      "less": true,
+      "folder": "apps/049-mini-inbox-reset"
+    },
+    {
+      "id": 50,
+      "name": "MiniRestCalendar",
+      "description": "Protect user-selected rest periods, flag overbooked weeks, and propose calendar changes without canceling anything automatically.",
+      "less": true,
+      "folder": "apps/050-mini-rest-calendar"
+    },
+    {
+      "id": 51,
+      "name": "MiniMeetingExit",
+      "description": "Turn a recurring meeting into a structured asynchronous update; suggest cancellation when its participants confirm the replacement works.",
+      "less": true,
+      "folder": "apps/051-mini-meeting-exit"
+    },
+    {
+      "id": 52,
+      "name": "MiniDonationMatch",
+      "description": "Help employees identify employer matching rules, assemble applications, and track requests, without taking custody of donations.",
+      "less": false,
+      "folder": "apps/052-mini-donation-match"
+    },
+    {
+      "id": 53,
+      "name": "MiniExpenses",
+      "description": "Extract receipt details, flag possible duplicates, route reimbursements for approval, and export records to an existing accounting system.",
+      "less": false,
+      "folder": "apps/053-mini-expenses"
+    },
+    {
+      "id": 54,
+      "name": "MiniPurchasing",
+      "description": "Manage purchase requests, supplier quotes, approvals, purchase orders, and delivery confirmation for a small organization.",
+      "less": false,
+      "folder": "apps/054-mini-purchasing"
+    },
+    {
+      "id": 55,
+      "name": "MiniTimeBilling",
+      "description": "Turn approved time entries, project rates, and expense records into invoices with a traceable calculation history.",
+      "less": false,
+      "folder": "apps/055-mini-time-billing"
+    },
+    {
+      "id": 56,
+      "name": "MiniFieldService",
+      "description": "Schedule technicians, issue work orders, collect job photos, and record customer sign-off, including an offline capture mode.",
+      "less": false,
+      "folder": "apps/056-mini-field-service"
+    },
+    {
+      "id": 57,
+      "name": "MiniCampaign",
+      "description": "A narrow HubSpot-style marketing replacement: consented contact segments, email sequences, approval steps, unsubscribe handling, and campaign reporting.",
+      "less": false,
+      "folder": "apps/057-mini-campaign"
+    },
+    {
+      "id": 58,
+      "name": "MiniCustomerSuccess",
+      "description": "Combine account milestones, support history, and imported usage data into onboarding plans and explainable renewal-risk flags.",
+      "less": false,
+      "folder": "apps/058-mini-customer-success"
+    },
+    {
+      "id": 59,
+      "name": "MiniDeveloperPortal",
+      "description": "Generate API documentation, developer onboarding, key management, and basic usage reporting from an API specification.",
+      "less": false,
+      "folder": "apps/059-mini-developer-portal"
+    },
+    {
+      "id": 60,
+      "name": "MiniAutomation",
+      "description": "Describe a trigger and an action; generate a small integration with previews, retries, failure alerts, and approval gates.",
+      "less": false,
+      "folder": "apps/060-mini-automation"
+    },
+    {
+      "id": 61,
+      "name": "MiniRFP",
+      "description": "Draft procurement-questionnaire responses from an approved company knowledge base, citing evidence and leaving unsupported answers blank.",
+      "less": false,
+      "folder": "apps/061-mini-rfp"
+    },
+    {
+      "id": 62,
+      "name": "MiniScribe",
+      "description": "Transcribe consented recordings, identify speakers, extract decisions, and create searchable notes linked to precise audio timestamps.",
+      "less": false,
+      "folder": "apps/062-mini-scribe"
+    },
+    {
+      "id": 63,
+      "name": "MiniCallReview",
+      "description": "Review opt-in sales or customer interviews for unanswered questions, commitments, and follow-up opportunities, with timestamped evidence.",
+      "less": false,
+      "folder": "apps/063-mini-call-review"
+    },
+    {
+      "id": 64,
+      "name": "MiniResearch",
+      "description": "Build a research workspace that collects permitted sources, groups claims, identifies disagreements, and drafts evidence-linked memos.",
+      "less": false,
+      "folder": "apps/064-mini-research"
+    },
+    {
+      "id": 65,
+      "name": "MiniQualitativeLab",
+      "description": "Code interview transcripts, compare themes across participants, and let researchers inspect every quotation behind an interpretation.",
+      "less": false,
+      "folder": "apps/065-mini-qualitative-lab"
+    },
+    {
+      "id": 66,
+      "name": "MiniSurveyLab",
+      "description": "A focused Qualtrics alternative with branching questionnaires, quotas, cross-tabulation, and reproducible analysis, but no bundled research panel.",
+      "less": false,
+      "folder": "apps/066-mini-survey-lab"
+    },
+    {
+      "id": 67,
+      "name": "MiniInternalSearch",
+      "description": "Search company documents while respecting source permissions, showing exact supporting passages and when each document was updated.",
+      "less": false,
+      "folder": "apps/067-mini-internal-search"
+    },
+    {
+      "id": 68,
+      "name": "MiniClipStudio",
+      "description": "Turn recorded talks into editable short clips, with transcript-based cuts, captions, speaker framing, and batch exports.",
+      "less": false,
+      "folder": "apps/068-mini-clip-studio"
+    },
+    {
+      "id": 69,
+      "name": "MiniPodcast",
+      "description": "Clean dialogue, normalize volume, identify editing candidates, and generate chapters while preserving a reversible edit history.",
+      "less": false,
+      "folder": "apps/069-mini-podcast"
+    },
+    {
+      "id": 70,
+      "name": "MiniImageStudio",
+      "description": "Target a narrow slice of Photoshop: layered product-image editing, background replacement, masks, resizing, and reusable export presets.",
+      "less": false,
+      "folder": "apps/070-mini-image-studio"
+    },
+    {
+      "id": 71,
+      "name": "MiniLayout",
+      "description": "Generate editable brochures, reports, or catalogs with typography controls, text reflow, page numbering, and print-ready exports.",
+      "less": false,
+      "folder": "apps/071-mini-layout"
+    },
+    {
+      "id": 72,
+      "name": "MiniStats",
+      "description": "Turn a research question and dataset into a reproducible statistical workflow, with inspectable code, assumption checks, and validated calculations.",
+      "less": false,
+      "folder": "apps/072-mini-stats"
+    },
+    {
+      "id": 73,
+      "name": "MiniScenarioPlanner",
+      "description": "Build a driver-based operating model with revenue, hiring, expenses, and cash scenarios, keeping formulas and assumptions visible.",
+      "less": false,
+      "folder": "apps/073-mini-scenario-planner"
+    },
+    {
+      "id": 74,
+      "name": "MiniInventoryPlanner",
+      "description": "Forecast demand, flag possible stockouts, and propose replenishment quantities with uncertainty ranges and approval before ordering.",
+      "less": false,
+      "folder": "apps/074-mini-inventory-planner"
+    },
+    {
+      "id": 75,
+      "name": "MiniRoutePlanner",
+      "description": "Optimize delivery or service routes around capacity, appointment windows, driver availability, and manually specified exceptions.",
+      "less": false,
+      "folder": "apps/075-mini-route-planner"
+    },
+    {
+      "id": 76,
+      "name": "MiniTimetable",
+      "description": "Generate school or program schedules that satisfy room, instructor, capacity, and availability constraints, explaining unresolved conflicts.",
+      "less": false,
+      "folder": "apps/076-mini-timetable"
+    },
+    {
+      "id": 77,
+      "name": "MiniContractDesk",
+      "description": "Extract obligations, compare document versions, route reviews, and maintain clause-level evidence, without treating generated interpretations as legal conclusions.",
+      "less": false,
+      "folder": "apps/077-mini-contract-desk"
+    },
+    {
+      "id": 78,
+      "name": "MiniAuditEvidence",
+      "description": "Map an organization\u2019s chosen controls to evidence requests, owners, and review cycles, without claiming that a generated checklist establishes compliance.",
+      "less": false,
+      "folder": "apps/078-mini-audit-evidence"
+    },
+    {
+      "id": 79,
+      "name": "MiniQuitGambling",
+      "description": "Combine opt-in transaction alerts, supported-site blocking, and trusted-contact check-ins, without promising foolproof enforcement or selling gambling referrals.",
+      "less": true,
+      "folder": "apps/079-mini-quit-gambling"
+    },
+    {
+      "id": 80,
+      "name": "MiniRewind",
+      "description": "A local-first, searchable personal activity archive with explicit recording controls, sensitive-app exclusions, encryption, and automatic retention limits.",
+      "less": false,
+      "folder": "apps/080-mini-rewind"
+    },
+    {
+      "id": 81,
+      "name": "MiniObservability",
+      "description": "Collect application logs and metrics, detect anomalies, and connect incidents to recent changes, with strict retention and spending controls.",
+      "less": false,
+      "folder": "apps/081-mini-observability"
+    },
+    {
+      "id": 82,
+      "name": "MiniDataWarehouse",
+      "description": "Ingest a few supported business sources into a governed analytical store with scheduled transformations, lineage, and controlled querying.",
+      "less": false,
+      "folder": "apps/082-mini-data-warehouse"
+    },
+    {
+      "id": 83,
+      "name": "MiniAppBridge",
+      "description": "Keep records synchronized across Minisoft applications, handling conflicts, deletions, permission changes, and schema migrations rather than merely copying fields.",
+      "less": false,
+      "folder": "apps/083-mini-app-bridge"
+    },
+    {
+      "id": 84,
+      "name": "MiniDesktopWorker",
+      "description": "Automate one repetitive back-office process across browser applications, with checkpoints, approval gates, and recoverable failures.",
+      "less": false,
+      "folder": "apps/084-mini-desktop-worker"
+    },
+    {
+      "id": 85,
+      "name": "MiniAgentAuditor",
+      "description": "Test applications you own for permission failures, prompt injection, and unsafe tool use, producing reproducible cases and regression tests.",
+      "less": false,
+      "folder": "apps/085-mini-agent-auditor"
+    },
+    {
+      "id": 86,
+      "name": "MiniHumanitarianCasework",
+      "description": "Coordinate services, referrals, and case histories with consent records, tightly scoped access, and carefully controlled offline operation.",
+      "less": false,
+      "folder": "apps/086-mini-humanitarian-casework"
+    },
+    {
+      "id": 87,
+      "name": "MiniLabOS",
+      "description": "Track samples, experiments, inventory, and instrument outputs with provenance, reproducible protocols, and correction histories.",
+      "less": false,
+      "folder": "apps/087-mini-lab-os"
+    },
+    {
+      "id": 88,
+      "name": "MiniSupplyChain",
+      "description": "Coordinate purchasing, warehouse stock, supplier lead times, and demand scenarios across several locations, with humans approving consequential changes.",
+      "less": false,
+      "folder": "apps/088-mini-supply-chain"
+    },
+    {
+      "id": 89,
+      "name": "MiniManufacturing",
+      "description": "Track bills of materials, work orders, production stages, batch genealogy, and quality checks without directly controlling machinery.",
+      "less": false,
+      "folder": "apps/089-mini-manufacturing"
+    },
+    {
+      "id": 90,
+      "name": "MiniQualitySystem",
+      "description": "Manage controlled procedures, corrective actions, training acknowledgments, and audit records, with validation rather than AI-generated compliance assurances.",
+      "less": false,
+      "folder": "apps/090-mini-quality-system"
+    },
+    {
+      "id": 91,
+      "name": "MiniAccounting",
+      "description": "A dependable double-entry ledger with reconciliations, period locks, permissions, and a correction trail, initially supporting one narrow business type.",
+      "less": false,
+      "folder": "apps/091-mini-accounting"
+    },
+    {
+      "id": 92,
+      "name": "MiniRoyalties",
+      "description": "Calculate rights-holder allocations from reviewed contract terms, usage records, territories, and currencies, with explainable statements and payment approval.",
+      "less": false,
+      "folder": "apps/092-mini-royalties"
+    },
+    {
+      "id": 93,
+      "name": "MiniFundAdmin",
+      "description": "Track investor commitments, capital calls, allocations, fees, and distributions from reviewed agreements, with accountant-verifiable calculations.",
+      "less": false,
+      "folder": "apps/093-mini-fund-admin"
+    },
+    {
+      "id": 94,
+      "name": "MiniTaxWorkbench",
+      "description": "Support one entity type in one jurisdiction using maintained, reviewed rules, traceable calculations, and professional approval before filing.",
+      "less": false,
+      "folder": "apps/094-mini-tax-workbench"
+    },
+    {
+      "id": 95,
+      "name": "MiniCAD",
+      "description": "Generate and edit one class of parametric parts, with dimensional constraints, geometry validation, and interoperable exports rather than unrestricted industrial design.",
+      "less": false,
+      "folder": "apps/095-mini-cad"
+    },
+    {
+      "id": 96,
+      "name": "MiniSimulation",
+      "description": "Wrap a validated solver for one physics domain with geometry preparation, meshing, parameter sweeps, and reference-case testing.",
+      "less": false,
+      "folder": "apps/096-mini-simulation"
+    },
+    {
+      "id": 97,
+      "name": "MiniPortfolioRisk",
+      "description": "Calculate exposures and stress scenarios from licensed or public data, with explicit model assumptions and validation against known results.",
+      "less": false,
+      "folder": "apps/097-mini-portfolio-risk"
+    },
+    {
+      "id": 98,
+      "name": "MiniClinicRecord",
+      "description": "A one-specialty patient-record system with chart versioning, access logs, interoperability, and independent safety and security review before clinical deployment.",
+      "less": false,
+      "folder": "apps/098-mini-clinic-record"
+    },
+    {
+      "id": 99,
+      "name": "MiniCoreLedger",
+      "description": "Account balances, transfers, reversals, and reconciliation with rigorous invariants and auditability; begin in a sandbox, with live-money deployment treated separately.",
+      "less": false,
+      "folder": "apps/099-mini-core-ledger"
+    },
+    {
+      "id": 100,
+      "name": "MiniSoftwareFactory",
+      "description": "Describe a workflow and provide representative data; it generates, tests, deploys, migrates, and maintains a purpose-built application, requiring approval for consequential changes.",
+      "less": false,
+      "folder": "apps/100-mini-software-factory"
+    }
+  ]
+}
