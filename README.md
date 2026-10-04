@@ -1,15 +1,14 @@
 # Minisoft: 100 useful workflow tools
 
-Build one selected product on each hourly wake of the same Codex chat. Start with **#33 MiniHackathon**, then **#1–32**, then **#34–100**. A difficult product can span several wakes; 100 is the target number of accepted products, not a promise of 100 hours.
+Build one selected product on each hourly wake of the series chat. Start with **#33 MiniHackathon**, then **#1–32**, then **#34–100**. A difficult product can span several wakes; 100 is the target number of accepted products, not a promise of 100 hours.
 
-Workspace: `/Users/lucaschu/code/minisoft`. Each idea has a numbered folder in `apps/`. The original list is in [catalog/source-ideas.md](catalog/source-ideas.md) and the machine-readable queue is [catalog/ideas.json](catalog/ideas.json). Setup created folders with briefs only; read the live ledger for actual implementation progress.
+Workspace: the extracted or checked-out `minisoft/` directory. Each idea has a numbered folder in `apps/`. The original list is in [catalog/source-ideas.md](catalog/source-ideas.md) and the machine-readable queue is [catalog/ideas.json](catalog/ideas.json). Setup created folders with briefs only; read the live ledger for actual implementation progress.
 
 ## Start here
 
 Read [AGENTS.md](AGENTS.md), then run:
 
 ```sh
-cd /Users/lucaschu/code/minisoft
 python3 scripts/factory.py status
 python3 scripts/factory.py next
 python3 scripts/factory.py validate
@@ -31,7 +30,7 @@ python3 scripts/factory.py validate
 
 Read [architecture](docs/architecture.md), [product contract](docs/product-contract.md), [runbook](docs/runbook.md), and [decisions](docs/decisions.md) for their linked contracts. Inspect the selected product and actual dependencies instead of scanning all 100 folders.
 
-The heartbeat runs locally. Keep this computer awake and Codex running. It inherits this chat's model and available subagent slots. “Tokenmaxx” means productive parallelism and thorough verification; it does not bypass account limits or create an unlimited token budget.
+The series is migrating to cloud execution; its previous local heartbeat is paused. Read [CLOUD.md](CLOUD.md) for cutover status and durable storage requirements. A cloud worker must verify its actual hourly schedule and persistence before claiming the series is active. It uses the cloud chat's configured model and available subagent slots. “Tokenmaxx” means productive parallelism and thorough verification; it does not bypass account limits or create an unlimited token budget.
 
 ## Release standard
 

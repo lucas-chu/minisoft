@@ -2,7 +2,7 @@
 
 ## Orient and select
 
-Work in `/Users/lucaschu/code/minisoft`. Read `AGENTS.md`, run `status` and `next`, then inspect the selected product/dependencies. Selection begins with #33, then the remaining list in order.
+Work in the Minisoft workspace root. Read `AGENTS.md`, run `status` and `next`, then inspect the selected product/dependencies. Selection begins with #33, then the remaining list in order.
 
 If `next` returns no eligible product while completion is below 100, inspect recorded blocked prerequisites cheaply. Unblock only when evidence shows a prerequisite changed; otherwise stay quiet. An empty eligible queue is not series completion.
 
@@ -40,4 +40,4 @@ When a prerequisite changes, `unblock <source-id> --note <what changed>` makes i
 
 ## Finish the series
 
-At 100 accepted products and no unfinished work, find the existing heartbeat in `state/automation.json` and disable it through Codex's automation tool, preserving other fields. Verify the returned inactive/paused state and save it. If disabling fails, future wakes do no product work and retry disabling. Report the final product index once. Do not archive this chat or impose a fixed 100-invocation cutoff.
+At 100 accepted products and no unfinished work, find the existing heartbeat in `state/automation.json` and disable it through its actual scheduler management tool, preserving other fields. Verify the returned inactive/paused state and save it. If disabling fails, future wakes do no product work and retry disabling. Report the final product index once. Do not archive this chat or impose a fixed 100-invocation cutoff.
